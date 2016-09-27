@@ -14,6 +14,15 @@
 		1E068EFA1D9A1E7000D3D345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E068EF81D9A1E7000D3D345 /* LaunchScreen.storyboard */; };
 		1E068F051D9A1E7000D3D345 /* weather101Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E068F041D9A1E7000D3D345 /* weather101Tests.swift */; };
 		1E068F101D9A1E7100D3D345 /* weather101UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E068F0F1D9A1E7100D3D345 /* weather101UITests.swift */; };
+		1E068F201D9A1F0600D3D345 /* Blood.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E068F1D1D9A1F0600D3D345 /* Blood.png */; };
+		1E068F211D9A1F0600D3D345 /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E068F1E1D9A1F0600D3D345 /* Moon.png */; };
+		1E068F221D9A1F0600D3D345 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E068F1F1D9A1F0600D3D345 /* Sun.png */; };
+		1E068F291D9A1F1A00D3D345 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E068F231D9A1F1A00D3D345 /* location.png */; };
+		1E068F2A1D9A1F1A00D3D345 /* location@2x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E068F241D9A1F1A00D3D345 /* location@2x.png.png */; };
+		1E068F2B1D9A1F1A00D3D345 /* location@3x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E068F251D9A1F1A00D3D345 /* location@3x.png.png */; };
+		1E068F2C1D9A1F1A00D3D345 /* Refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E068F261D9A1F1A00D3D345 /* Refresh.png */; };
+		1E068F2D1D9A1F1A00D3D345 /* Refresh@2x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E068F271D9A1F1A00D3D345 /* Refresh@2x.png.png */; };
+		1E068F2E1D9A1F1A00D3D345 /* Refresh@3x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E068F281D9A1F1A00D3D345 /* Refresh@3x.png.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		1E068F0B1D9A1E7100D3D345 /* weather101UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weather101UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E068F0F1D9A1E7100D3D345 /* weather101UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather101UITests.swift; sourceTree = "<group>"; };
 		1E068F111D9A1E7100D3D345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E068F1D1D9A1F0600D3D345 /* Blood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blood.png; sourceTree = "<group>"; };
+		1E068F1E1D9A1F0600D3D345 /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon.png; sourceTree = "<group>"; };
+		1E068F1F1D9A1F0600D3D345 /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sun.png; sourceTree = "<group>"; };
+		1E068F231D9A1F1A00D3D345 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		1E068F241D9A1F1A00D3D345 /* location@2x.png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png.png"; sourceTree = "<group>"; };
+		1E068F251D9A1F1A00D3D345 /* location@3x.png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@3x.png.png"; sourceTree = "<group>"; };
+		1E068F261D9A1F1A00D3D345 /* Refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Refresh.png; sourceTree = "<group>"; };
+		1E068F271D9A1F1A00D3D345 /* Refresh@2x.png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Refresh@2x.png.png"; sourceTree = "<group>"; };
+		1E068F281D9A1F1A00D3D345 /* Refresh@3x.png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Refresh@3x.png.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,7 @@
 		1E068EE31D9A1E7000D3D345 = {
 			isa = PBXGroup;
 			children = (
+				1E068F2F1D9A1F2500D3D345 /* images */,
 				1E068EEE1D9A1E7000D3D345 /* weather101 */,
 				1E068F031D9A1E7000D3D345 /* weather101Tests */,
 				1E068F0E1D9A1E7100D3D345 /* weather101UITests */,
@@ -123,6 +142,22 @@
 				1E068F111D9A1E7100D3D345 /* Info.plist */,
 			);
 			path = weather101UITests;
+			sourceTree = "<group>";
+		};
+		1E068F2F1D9A1F2500D3D345 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1E068F1D1D9A1F0600D3D345 /* Blood.png */,
+				1E068F1E1D9A1F0600D3D345 /* Moon.png */,
+				1E068F1F1D9A1F0600D3D345 /* Sun.png */,
+				1E068F231D9A1F1A00D3D345 /* location.png */,
+				1E068F241D9A1F1A00D3D345 /* location@2x.png.png */,
+				1E068F251D9A1F1A00D3D345 /* location@3x.png.png */,
+				1E068F261D9A1F1A00D3D345 /* Refresh.png */,
+				1E068F271D9A1F1A00D3D345 /* Refresh@2x.png.png */,
+				1E068F281D9A1F1A00D3D345 /* Refresh@3x.png.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +267,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E068F221D9A1F0600D3D345 /* Sun.png in Resources */,
+				1E068F2B1D9A1F1A00D3D345 /* location@3x.png.png in Resources */,
+				1E068F201D9A1F0600D3D345 /* Blood.png in Resources */,
 				1E068EFA1D9A1E7000D3D345 /* LaunchScreen.storyboard in Resources */,
+				1E068F2D1D9A1F1A00D3D345 /* Refresh@2x.png.png in Resources */,
+				1E068F211D9A1F0600D3D345 /* Moon.png in Resources */,
+				1E068F2E1D9A1F1A00D3D345 /* Refresh@3x.png.png in Resources */,
+				1E068F2A1D9A1F1A00D3D345 /* location@2x.png.png in Resources */,
+				1E068F291D9A1F1A00D3D345 /* location.png in Resources */,
 				1E068EF71D9A1E7000D3D345 /* Assets.xcassets in Resources */,
 				1E068EF51D9A1E7000D3D345 /* Main.storyboard in Resources */,
+				1E068F2C1D9A1F1A00D3D345 /* Refresh.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +549,7 @@
 				1E068F161D9A1E7100D3D345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E068F171D9A1E7100D3D345 /* Build configuration list for PBXNativeTarget "weather101Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +558,7 @@
 				1E068F191D9A1E7100D3D345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E068F1A1D9A1E7100D3D345 /* Build configuration list for PBXNativeTarget "weather101UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +567,7 @@
 				1E068F1C1D9A1E7100D3D345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
